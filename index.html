@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KREH-ATIV</title>
+    <style>
+        :root {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: whitesmoke;
+        }
+        main {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 1em;
+            border: 1px gainsboro solid;
+            background-color: white;
+            padding: 2em;
+        }
+        main * {
+            margin: 0;
+        }
+        main img {
+            max-width: 175px;
+        }
+        main p {
+            font-size: larger;
+        }
+        @media (max-width: 500px) {
+            main {
+                width: calc(100% - 30%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img src="logo.svg" alt="Logo von KREH-ATIV">
+        <h1>KREH-ATIV</h1>
+        <p>Initiative für kreative Arbeiten von <strong>Linus Kreh</strong>!</p>
+    </main>
+</body>
+</html>
